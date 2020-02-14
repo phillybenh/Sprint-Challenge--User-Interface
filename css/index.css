@@ -151,6 +151,9 @@ nav {
     justify-content: space-around;
     align-items: flex-start;
 }
+.aboutBox h2 {
+    padding: 4% 0 0 0;
+}
 
 button {
     background-color: white;
