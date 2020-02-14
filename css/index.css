@@ -94,12 +94,14 @@ nav {
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
 }
+
 .top-content-about {
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
     padding: 0 1%;
     padding-bottom: 20px;
 }
+
 .top-content .text-container {
     width: 48%;
     padding: 0 1%;
@@ -131,6 +133,32 @@ nav {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.aboutFlex {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+
+.aboutBox {
+    width: 380px;
+    /* height: 400px; */
+    padding: 4% 0;
+    border-bottom: 1px dashed black;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+
+button {
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 8px;
+    padding: 6px 10px;
+    margin: 2% 0 0 0;
+    cursor: pointer;
 }
 
 #box1 {
@@ -185,6 +213,10 @@ nav {
 
 .bottom-content .text-container:last-child {
     padding-right: 0;
+}
+
+.bottom-content-about {
+    padding: 20px 1%;
 }
 
 footer {
